@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Today's Market Digest — Cataanalizer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+:root { --tinta: #1B3A6B; --texto: #0F1B2D; --fondo: #F2F4F6; --gris: #4B5563;
+  --linea: #D3DAE3; padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fondo); color: var(--texto);
+  font-family: 'Schibsted Grotesk', 'Helvetica Neue', sans-serif; }
+a { color: var(--tinta); }
+header { display: flex; justify-content: space-between; align-items: center;
+  padding: 20px 24px; border-bottom: 1px solid var(--linea); }
+.marca { font-size: 20px; font-weight: 800; color: var(--tinta); text-decoration: none; }
+.volver { font-size: 14px; font-weight: 600; text-decoration: none; }
+main { padding: 40px 24px 60px; max-width: 900px; margin: 0 auto; }
+h1 { font-size: clamp(28px, 5vw, 42px); font-weight: 800; letter-spacing: -0.02em; margin: 0 0 8px; }
+.sub { font-size: 15px; color: var(--gris); margin: 0 0 32px; }
+.resumen { font-size: 18px; line-height: 1.6; color: #243447; background: #fff;
+  border: 1px solid var(--linea); border-radius: 14px; padding: 24px; margin-bottom: 36px; }
+.bloque { margin-bottom: 36px; }
+.bloque h2 { font-size: 22px; font-weight: 800; margin: 0 0 16px; letter-spacing: -0.01em; }
+table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid var(--linea);
+  border-radius: 10px; overflow: hidden; }
+th { text-align: left; font-size: 13px; text-transform: uppercase; letter-spacing: 0.03em;
+  color: var(--gris); padding: 10px 14px; border-bottom: 1px solid var(--linea); }
+td { padding: 12px 14px; border-bottom: 1px solid #EDF0F3; font-size: 15px; vertical-align: top; }
+.t-tk { font-weight: 800; color: var(--tinta); white-space: nowrap; }
+.etq { font-size: 12px; font-weight: 600; padding: 3px 8px; border: 1px solid #B8C3D1;
+  border-radius: 6px; color: #243447; white-space: nowrap; }
+.impacto { font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 6px; white-space: nowrap; }
+.imp-high { background: #FCE8D8; color: #A34E00; }
+.imp-medium { background: #EDEBF9; color: #3B2F6B; }
+.imp-low { background: #E6EAEF; color: #4B5563; }
+.riesgos { padding-left: 20px; display: flex; flex-direction: column; gap: 10px; }
+.riesgos li { font-size: 15px; line-height: 1.55; color: #243447; }
+footer { padding: 28px 24px 48px; border-top: 1px solid var(--linea); max-width: 900px; margin: 0 auto; }
+footer p { margin: 0 0 8px; font-size: 14px; line-height: 1.55; color: var(--gris); }
+@media (max-width: 640px) {
+  table, thead, tbody, th, td, tr { display: block; }
+  thead { display: none; }
+  tr { border-bottom: 1px solid var(--linea); padding: 10px 0; }
+  td { border: none; padding: 4px 14px; }
+  td:before { content: attr(data-label); display: block; font-size: 11px;
+    text-transform: uppercase; color: var(--gris); margin-bottom: 2px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <a class="marca" href="./index.html">Cataanalizer</a>
+  <a class="volver" href="./index.html">← Back to today's bulletin</a>
+</header>
+<main>
+  <h1>Today's Market Digest</h1>
+  <p class="sub">Built locally from 5 news items — Friday, October 02, 12:14</p>
+  <div class="resumen">No significant catalysts stood out in the 5 news item(s) reviewed today. This usually just means a quiet news day, not a problem with the system.</div>
+  
+  
+</main>
+<footer>
+  <p>This is information, not investment advice. Do your own research before investing.</p>
+  <p>Built by a local AI model from the day's news. Always verify against the original sources.</p>
+</footer>
+</body>
+</html>
